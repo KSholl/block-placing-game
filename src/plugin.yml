@@ -1,0 +1,10 @@
+name: Block_Placing_Game_Rewrite
+main: com.c2t2s.mc.com.c2t2s.mc.Main
+version: 1.1
+commands:
+  blockGame:
+    description: Used to set and access the various locations in the game
+    usage: /blockGame [set/visit] [lobby/start/lapis/spectator]
+  bg:
+    description: Alias for blockGame
+    usage: /bg [set/visit] [lobby/start/lapis/spectator] or /bg force [lobby/lobbyCountdown/blockPlacing/round] or /bg force [stop/start] or /bg about
